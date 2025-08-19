@@ -72,3 +72,37 @@ To replicate the project and run the forecasting models:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/crypto-forecasting.git
+
+## Evaluation
+Model performance is measured using:
+
+- **MAE (Mean Absolute Error)** – average magnitude of errors
+- **MSE (Mean Squared Error)** – penalizes larger errors
+- **RMSE (Root Mean Squared Error)** – error in the same units as data
+
+Performance comparison tables and charts are saved in the `results` folder.
+
+## Results & Plots
+
+- Forecasted vs. actual prices for Bitcoin, Ethereum, and Binance Coin  
+- Error analysis plots for MAE, MSE, RMSE  
+- VMD decomposition plots for LSTM  
+
+Example:
+
+![Bitcoin Forecast](results/bitcoin_forecast.png)
+
+## Technologies
+
+- Python – data processing and modeling  
+- R – statistical analysis  
+- TensorFlow / Keras – LSTM modeling  
+- scikit-learn – preprocessing and evaluation  
+- pandas & numpy – data manipulation  
+- matplotlib & seaborn – visualization
+
+## License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+
