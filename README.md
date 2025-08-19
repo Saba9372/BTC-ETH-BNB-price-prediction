@@ -16,13 +16,17 @@ This project explores time series forecasting techniques on cryptocurrency price
 - [License](#license)
 
 ## Project Overview
-The project focuses on forecasting cryptocurrency prices:
+Cryptocurrency markets are highly volatile and complex, making accurate price forecasting a critical challenge for investors and analysts. This project examines:
 
-- **Bitcoin**: 7 years of historical data  
-- **Ethereum**: 4 years of historical data  
-- **Binance Coin**: 4 years of historical data  
+Historical daily closing prices for Bitcoin (7 years), Ethereum (4 years), and Binance Coin (4 years).
 
-The main goal is to implement, compare, and evaluate ARIMA, LSTM, and hybrid models for predicting cryptocurrency prices.
+Implementation and evaluation of multiple forecasting models, including ARIMA, LSTM, and a hybrid Decomposition-LSTM approach.
+
+Time series preprocessing techniques, such as stationarity testing, trend-seasonality decomposition, and normalization.
+
+Comparative performance analysis using metrics like MAE, MSE, and RMSE to identify the most effective forecasting method.
+
+The project uses Python (pandas, numpy, yfinance, scikit-learn, TensorFlow/Keras) and R (forecast, tseries, ggplot2) for data processing, model training, and visualization. By combining classical statistical methods with deep learning approaches, this work aims to provide actionable insights into future cryptocurrency price trends.
 
 ## Data Sources
 - [Cointelegraph](https://cointelegraph.com)   
