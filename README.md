@@ -8,7 +8,7 @@ This project explores time series forecasting techniques on cryptocurrency price
 - [Models](#models)
   - [ARIMA](#arima)
   - [LSTM](#lstm)
-  - [Hybrid Decomposition-LSTM](#hybrid-decomposition-lstm)
+  - [VMD-LSTM] (#VariationalModeDecomposition+LSTM)
 - [Implementation](#implementation)
 - [Usage](#usage)
 - [Evaluation](#evaluation)
