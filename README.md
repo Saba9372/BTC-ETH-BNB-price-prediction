@@ -92,10 +92,10 @@ python BTC-ARIMA.py
 
 
 
-To run LSTM model for Ethereum:
+### Run LSTM model for Ethereum
 
-python ETH-LSTM.py
-python ETH-LSTM.py
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Saba9372/BTC-ETH-BNB-price-prediction/blob/main/ETH-LSTM.py)
+
 
 
 
