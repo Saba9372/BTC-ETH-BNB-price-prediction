@@ -71,7 +71,7 @@ To replicate the project and run the forecasting models:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/crypto-forecasting.git
+   git clone https://github.com/Saba9372/BTC-ETH-BNB-price-prediction.git
 
 ## Evaluation
 Model performance is measured using:
