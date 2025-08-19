@@ -65,13 +65,46 @@ All datasets include daily closing prices and have been preprocessed for modelin
 - R libraries: `forecast`, `tseries`, `ggplot2`  
 - Code is modularized for easy replication and adaptation to other cryptocurrencies or financial time series  
 
-## Usage
+## Clone the Repository
+Download the project from GitHub to your computer:
 
-To replicate the project and run the forecasting models:
+git clone https://github.com/YOUR_USERNAME/YOUR_PROJECT_NAME.git
+cd YOUR_PROJECT_NAME
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Saba9372/BTC-ETH-BNB-price-prediction.git
+
+Install Dependencies
+Make sure you have Python 3.x installed, then install the required libraries:
+
+pip install -r requirements.txt
+
+
+(You’ll need to create a requirements.txt later — I can help with that if you don’t have it yet.)
+
+Prepare Data
+Place the CSV files (e.g., BTC-Total.csv, BTC-Test.csv, BNB-Total.csv, etc.) in the project folder.
+These files are required for the models to run.
+
+Run Models
+
+To run ARIMA model for Bitcoin:
+
+python BTC-ARIMA.py
+
+
+To run LSTM model for Ethereum:
+
+python ETH-LSTM.py
+
+
+Similarly, you can run other scripts (BNB-LSTM.py, BNB-ARIMA.py, etc.) depending on the asset and model you want.
+
+View Results
+
+Each script will train the model and print evaluation metrics (e.g., MAPE, MSE).
+
+Some scripts also generate plots showing predictions vs. actual values.
+
+The results will either show in your terminal or pop up as graphs (via matplotlib).
 
 ## Evaluation
 Model performance is measured using:
