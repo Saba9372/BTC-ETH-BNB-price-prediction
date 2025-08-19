@@ -16,7 +16,6 @@ This project explores time series forecasting techniques on cryptocurrency price
 - [License](#license)
 
 ## Project Overview
-## Overview
 
 Cryptocurrency markets are highly volatile, making accurate price forecasting critical for investors and analysts. This project explores:
 
