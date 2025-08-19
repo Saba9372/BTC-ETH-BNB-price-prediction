@@ -25,7 +25,7 @@ The project focuses on forecasting cryptocurrency prices:
 The main goal is to implement, compare, and evaluate ARIMA, LSTM, and hybrid models for predicting cryptocurrency prices.
 
 ## Data Sources
-- **Cointelegraph**  
+- [Cointelegraph](https://cointelegraph.com)   
 - **Yahoo Finance** via the `yfinance` Python library  
 
 All datasets include daily closing prices and have been preprocessed for modeling.
