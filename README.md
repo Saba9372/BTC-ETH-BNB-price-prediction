@@ -46,9 +46,11 @@ All datasets include daily closing prices and have been preprocessed for modelin
 - Network design and training  
 - Hyperparameter tuning (e.g., number of epochs) to optimize performance  
 
-### Hybrid Decomposition-LSTM
-- Combines trend-seasonality decomposition with LSTM  
-- Aims for improved prediction accuracy compared to standalone models  
+### VMD-LSTM (Variational Mode Decomposition + LSTM)
+
+- VMD decomposes the original time series into intrinsic mode functions
+- Each mode is modeled using LSTM for more accurate predictions
+- Combines trend and high-frequency components to improve forecasting performance
 
 ## Implementation
 - Programming Languages: Python and R  
