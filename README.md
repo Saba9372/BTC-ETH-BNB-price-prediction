@@ -17,14 +17,21 @@ This project explores time series forecasting techniques on cryptocurrency price
 
 ## Project Overview
 
-Cryptocurrency markets are highly volatile, making accurate price forecasting critical for investors and analysts. This project explores:
+This project explores **time series forecasting techniques** on cryptocurrency price data, focusing on predicting future prices for major cryptocurrencies:
 
-- **Data Analysis**: Daily closing prices for Bitcoin (7 years), Ethereum (4 years), and Binance Coin (4 years).  
-- **Forecasting Models**: Implementation of **ARIMA**, **LSTM**, and **Hybrid Decomposition-LSTM** models to predict future prices.  
-- **Preprocessing Techniques**: Stationarity testing, trend-seasonality decomposition, normalization, and hyperparameter tuning.  
-- **Evaluation**: Model performance assessed using **MAE**, **MSE**, and **RMSE**.  
-- **Tools & Libraries**: Python (`pandas`, `numpy`, `yfinance`, `TensorFlow/Keras`), R (`forecast`, `tseries`, `ggplot2`).  
-- **Goal**: Provide insights into cryptocurrency price trends and identify the most accurate forecasting approach.
+- **Bitcoin** – 7 years of historical data  
+- **Ethereum** – 4 years of historical data  
+- **Binance Coin** – 4 years of historical data  
+
+The project implements and evaluates a **VMD-LSTM (Variational Mode Decomposition with Long Short-Term Memory)** model to capture complex patterns in cryptocurrency prices. Key aspects include:
+
+- **Decomposition of time series** into intrinsic mode functions using **VMD**  
+- **LSTM-based forecasting** on decomposed components to improve prediction accuracy  
+- **Evaluation of performance** using metrics such as **MAE, MSE, and RMSE**  
+- **Comparison with other models** like ARIMA and standalone LSTM to demonstrate the advantages of the hybrid approach  
+
+The project uses **Python and R**, combining data preprocessing, modeling, and visualization to provide actionable insights into cryptocurrency price trends.
+
 
 
 ## Data Sources
