@@ -91,9 +91,12 @@ To run ARIMA model for Bitcoin:
 python BTC-ARIMA.py
 
 
+
 To run LSTM model for Ethereum:
 
 python ETH-LSTM.py
+python ETH-LSTM.py
+
 
 
 Similarly, you can run other scripts (BNB-LSTM.py, BNB-ARIMA.py, etc.) depending on the asset and model you want.
