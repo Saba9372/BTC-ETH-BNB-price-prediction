@@ -66,7 +66,9 @@ All datasets include daily closing prices and have been preprocessed for modelin
 - Code is modularized for easy replication and adaptation to other cryptocurrencies or financial time series  
 
 ## Usage
-Clone the repository:
-```bash
-git clone https://github.com/yourusername/crypto-forecasting.git
-cd crypto-forecasting
+
+To replicate the project and run the forecasting models:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/crypto-forecasting.git
