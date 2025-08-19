@@ -16,17 +16,17 @@ This project explores time series forecasting techniques on cryptocurrency price
 - [License](#license)
 
 ## Project Overview
-Cryptocurrency markets are highly volatile and complex, making accurate price forecasting a critical challenge for investors and analysts. This project examines:
+## Overview
 
-Historical daily closing prices for Bitcoin (7 years), Ethereum (4 years), and Binance Coin (4 years).
+Cryptocurrency markets are highly volatile, making accurate price forecasting critical for investors and analysts. This project explores:
 
-Implementation and evaluation of multiple forecasting models, including ARIMA, LSTM, and a hybrid Decomposition-LSTM approach.
+- **Data Analysis**: Daily closing prices for Bitcoin (7 years), Ethereum (4 years), and Binance Coin (4 years).  
+- **Forecasting Models**: Implementation of **ARIMA**, **LSTM**, and **Hybrid Decomposition-LSTM** models to predict future prices.  
+- **Preprocessing Techniques**: Stationarity testing, trend-seasonality decomposition, normalization, and hyperparameter tuning.  
+- **Evaluation**: Model performance assessed using **MAE**, **MSE**, and **RMSE**.  
+- **Tools & Libraries**: Python (`pandas`, `numpy`, `yfinance`, `TensorFlow/Keras`), R (`forecast`, `tseries`, `ggplot2`).  
+- **Goal**: Provide insights into cryptocurrency price trends and identify the most accurate forecasting approach.
 
-Time series preprocessing techniques, such as stationarity testing, trend-seasonality decomposition, and normalization.
-
-Comparative performance analysis using metrics like MAE, MSE, and RMSE to identify the most effective forecasting method.
-
-The project uses Python (pandas, numpy, yfinance, scikit-learn, TensorFlow/Keras) and R (forecast, tseries, ggplot2) for data processing, model training, and visualization. By combining classical statistical methods with deep learning approaches, this work aims to provide actionable insights into future cryptocurrency price trends.
 
 ## Data Sources
 - [Cointelegraph](https://cointelegraph.com)   
