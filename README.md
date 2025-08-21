@@ -84,12 +84,15 @@ The scripts automatically download the required cryptocurrency data using the yf
 
 ### Run Models
 
-To run ARIMA model for Bitcoin:
-
+#### Run ARIMA model for Bitcoin:
+```bash
 python BTC-ARIMA.py
+```
 
-
-### Run LSTM model for Ethereum
+#### Run LSTM model for Bitcoin :
+```bash
+python BTC-LSTM.py
+```
 
 Similarly, you can run other scripts (BNB-LSTM.py, BNB-ARIMA.py, etc.) depending on the asset and model you want.
 
