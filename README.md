@@ -73,7 +73,7 @@ git clone https://github.com/Saba9372/BTC-ETH-BNB-price-prediction.git
 cd BTC-ETH-BNB-price-prediction
 ```
 
-
+bash
 Install Dependencies
 Make sure you have Python 3.x installed, then install the required libraries:
 
