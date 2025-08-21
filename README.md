@@ -79,29 +79,21 @@ Make sure you have Python 3.x installed, then install the required libraries:
 pip install -r requirements.txt
 ```
 
-(You’ll need to create a requirements.txt later — I can help with that if you don’t have it yet.)
+### Prepare Data
+The scripts automatically download the required cryptocurrency data using the yfinance library. No manual CSV files are needed.
 
-Prepare Data
-Place the CSV files (e.g., BTC-Total.csv, BTC-Test.csv, BNB-Total.csv, etc.) in the project folder.
-These files are required for the models to run.
-
-Run Models
+### Run Models
 
 To run ARIMA model for Bitcoin:
 
 python BTC-ARIMA.py
 
 
-
 ### Run LSTM model for Ethereum
-????
-
-
-
 
 Similarly, you can run other scripts (BNB-LSTM.py, BNB-ARIMA.py, etc.) depending on the asset and model you want.
 
-View Results
+### View Results
 
 Each script will train the model and print evaluation metrics (e.g., MAPE, MSE).
 
