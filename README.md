@@ -66,7 +66,7 @@ All datasets include daily closing prices and have been preprocessed for modelin
 - Code is modularized for easy replication and adaptation to other cryptocurrencies or financial time series  
 
 ## Clone the Repository
-Download the project from GitHub to your computer:
+##Download the project from GitHub to your computer:
 
 git clone https://github.com/Saba9372/BTC-ETH-BNB-price-prediction.git
 cd BTC-ETH-BNB-price-prediction
