@@ -71,6 +71,7 @@ All datasets include daily closing prices and have been preprocessed for modelin
 
 git clone https://github.com/Saba9372/BTC-ETH-BNB-price-prediction.git
 cd BTC-ETH-BNB-price-prediction
+```
 
 
 Install Dependencies
