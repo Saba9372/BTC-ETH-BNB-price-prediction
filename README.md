@@ -73,12 +73,11 @@ git clone https://github.com/Saba9372/BTC-ETH-BNB-price-prediction.git
 cd BTC-ETH-BNB-price-prediction
 ```
 
-Install Dependencies
-```bash
+### Install Dependencies
 Make sure you have Python 3.x installed, then install the required libraries:
-```
+```bash
 pip install -r requirements.txt
-
+```
 
 (You’ll need to create a requirements.txt later — I can help with that if you don’t have it yet.)
 
