@@ -1,76 +1,67 @@
-# Cryptocurrency Price Forecasting
+# 🪙 Cryptocurrency Price Prediction (BTC, ETH, BNB)
 
-This project explores time series forecasting techniques on cryptocurrency price data collected over several years. It implements and evaluates ARIMA, LSTM, and hybrid models to predict future cryptocurrency prices.
+## 📘 Project Overview
+This project explores time series forecasting techniques on cryptocurrency price data, focusing on predicting future prices for major cryptocurrencies:
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Data Sources](#data-sources)
-- [Models](#models)
-  - [ARIMA](#arima)
-  - [LSTM](#lstm)
-  - [VMD-LSTM](#VariationalModeDecomposition+LSTM)
-- [Implementation](#implementation)
-- [Usage](#usage)
-- [Evaluation](#evaluation)
-- [Technologies](#technologies)
-- [License](#license)
+- **Bitcoin (BTC)** – 7 years of historical data  
+- **Ethereum (ETH)** – 4 years of historical data  
+- **Binance Coin (BNB)** – 4 years of historical data  
 
-## Project Overview
+The project implements and evaluates a **VMD-LSTM (Variational Mode Decomposition with Long Short-Term Memory)** model to capture complex patterns in cryptocurrency prices.
 
-This project explores **time series forecasting techniques** on cryptocurrency price data, focusing on predicting future prices for major cryptocurrencies:
+### Key aspects include:
+- Decomposition of time series into intrinsic mode functions using VMD  
+- LSTM-based forecasting on decomposed components to improve prediction accuracy  
+- Evaluation using metrics such as **MAE, MSE, and RMSE**  
+- Comparison with other models like **ARIMA** and **standalone LSTM**  
 
-- **Bitcoin** – 7 years of historical data  
-- **Ethereum** – 4 years of historical data  
-- **Binance Coin** – 4 years of historical data  
+The project uses **Python** and **R**, combining data preprocessing, modeling, and visualization to provide actionable insights into cryptocurrency price trends.
 
-The project implements and evaluates a **VMD-LSTM (Variational Mode Decomposition with Long Short-Term Memory)** model to capture complex patterns in cryptocurrency prices. Key aspects include:
+---
 
-- **Decomposition of time series** into intrinsic mode functions using **VMD**  
-- **LSTM-based forecasting** on decomposed components to improve prediction accuracy  
-- **Evaluation of performance** using metrics such as **MAE, MSE, and RMSE**  
-- **Comparison with other models** like ARIMA and standalone LSTM to demonstrate the advantages of the hybrid approach  
-
-The project uses **Python and R**, combining data preprocessing, modeling, and visualization to provide actionable insights into cryptocurrency price trends.
-
-
-
-## Data Sources
-- [Cointelegraph](https://cointelegraph.com)   
-- **Yahoo Finance** via the `yfinance` Python library  
+## 📊 Data Sources
+- [Cointelegraph](https://cointelegraph.com/)  
+- [Yahoo Finance](https://finance.yahoo.com/) via the `yfinance` Python library  
 
 All datasets include daily closing prices and have been preprocessed for modeling.
 
-## Models
+---
 
-### ARIMA (AutoRegressive Integrated Moving Average)
-- Stationarity testing using ADF test  
-- Model identification using ACF and PACF plots  
-- Training and forecasting  
-- Optimal parameters selected based on AIC/BIC and diagnostic checks  
+## 🧠 Models
 
-### LSTM (Long Short-Term Memory)
-- Data splitting and normalization (`StandardScaler`)  
-- Network design and training  
-- Hyperparameter tuning (e.g., number of epochs) to optimize performance  
+### 1. ARIMA (AutoRegressive Integrated Moving Average)
+- Stationarity testing using **ADF test**  
+- Model identification with **ACF** and **PACF** plots  
+- Optimal parameters based on **AIC/BIC**
 
-### VMD-LSTM (Variational Mode Decomposition + LSTM)
+### 2. LSTM (Long Short-Term Memory)
+- Data splitting and normalization with **StandardScaler**  
+- Network design, training, and tuning  
+- Performance optimization via hyperparameters (e.g., epochs)
 
-- VMD decomposes the original time series into intrinsic mode functions
-- Each mode is modeled using LSTM for more accurate predictions
-- Combines trend and high-frequency components to improve forecasting performance
+### 3. VMD-LSTM (Hybrid Model)
+- VMD decomposes the time series into intrinsic mode functions (IMFs)  
+- Each IMF modeled using LSTM for detailed forecasting  
+- Combines trend and high-frequency components for improved accuracy  
 
-## Implementation
-- Programming Languages: Python and R  
-- Python libraries: `pandas`, `numpy`, `yfinance`, `sklearn`, `tensorflow/keras`  
-- R libraries: `forecast`, `tseries`, `ggplot2`  
-- Code is modularized for easy replication and adaptation to other cryptocurrencies or financial time series  
+---
 
-## Clone the Repository
-### Download the project from GitHub to your computer:
+## ⚙️ Implementation
+**Programming Languages:** Python & R  
+**Python libraries:** `pandas`, `numpy`, `yfinance`, `sklearn`, `tensorflow/keras`  
+**R libraries:** `forecast`, `tseries`, `ggplot2`
+
+Code is modularized for easy replication and adaptation to other cryptocurrencies or financial time series.
+
+---
+
+## 💾 Clone the Repository
+Download the project from GitHub to your computer:
+
 ```bash
-
 git clone https://github.com/Saba9372/BTC-ETH-BNB-price-prediction.git
 cd BTC-ETH-BNB-price-prediction
+
 ```
 
 ### Install Dependencies
