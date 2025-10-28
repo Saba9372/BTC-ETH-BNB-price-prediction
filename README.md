@@ -1,4 +1,4 @@
-# 🪙 Cryptocurrency Price Prediction (BTC, ETH, BNB)
+# 🪙 Cryptocurrency Price Prediction Using a Hybrid Learning Approach Based on VMD-LSTM Decomposition and Modeling (BTC, ETH, BNB)
 
 ## 📘 Project Overview
 This project explores time series forecasting techniques on cryptocurrency price data, focusing on predicting future prices for major cryptocurrencies:
