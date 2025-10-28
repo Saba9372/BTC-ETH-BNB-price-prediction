@@ -64,13 +64,13 @@ cd BTC-ETH-BNB-price-prediction
 
 ```
 
-### Install Dependencies
+### 📦 Install Dependencies
 Make sure you have Python 3.x installed, then install the required libraries:
 ```bash
 pip install -r requirements.txt
 ```
 
-### Prepare Data
+### 📂 Prepare Data
 The scripts automatically download the required cryptocurrency data using the yfinance library. No manual CSV files are needed.
 
 ### Run Models
@@ -80,14 +80,14 @@ The scripts automatically download the required cryptocurrency data using the yf
 python BTC-ARIMA.py
 ```
 
-#### Run LSTM model for Bitcoin :
+#### 🚀 Run LSTM model for Bitcoin :
 ```bash
 python BTC-LSTM.py
 ```
 
 Similarly, you can run other scripts (BNB-LSTM.py, BNB-ARIMA.py, etc.) depending on the asset and model you want.
 
-### View Results
+### 📈 View Results
 
 Each script will train the model and print evaluation metrics (e.g., MAPE, MSE).
 
@@ -95,7 +95,7 @@ Some scripts also generate plots showing predictions vs. actual values.
 
 The results will either show in your terminal or pop up as graphs (via matplotlib).
 
-## Evaluation
+## 🧮 Evaluation
 Model performance is measured using:
 
 - **MAE (Mean Absolute Error)** – average magnitude of errors
@@ -104,7 +104,7 @@ Model performance is measured using:
 
 Performance comparison tables and charts are saved in the `results` folder.
 
-## Results & Plots
+## 📊 Results & Plots
 
 - Forecasted vs. actual prices for Bitcoin, Ethereum, and Binance Coin  
 - Error analysis plots for MAE, MSE, RMSE  
@@ -114,7 +114,7 @@ Example:
 
 ![Bitcoin Forecast](results/bitcoin_forecast.png)
 
-## Technologies
+## 🧰 Technologies
 
 - Python – data processing and modeling  
 - R – statistical analysis  
@@ -123,7 +123,7 @@ Example:
 - pandas & numpy – data manipulation  
 - matplotlib & seaborn – visualization
 
-## License
+## 🪪 License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
